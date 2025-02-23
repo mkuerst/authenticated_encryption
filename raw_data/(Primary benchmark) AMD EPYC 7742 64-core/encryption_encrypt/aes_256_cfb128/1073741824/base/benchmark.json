@@ -1,0 +1,1 @@
+{"group_id":"encryption/encrypt","function_id":"aes_256_cfb128","value_str":"1073741824","throughput":{"Bytes":1073741824},"full_id":"encryption/encrypt/aes_256_cfb128/1073741824","directory_name":"encryption_encrypt/aes_256_cfb128/1073741824","title":"encryption/encrypt/aes_256_cfb128/1073741824"}

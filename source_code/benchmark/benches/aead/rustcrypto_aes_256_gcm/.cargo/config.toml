@@ -1,0 +1,7 @@
+[build]
+# rustflags = ["-Cprefer-dynamic"]
+# rustflags = [
+#     "-C",
+#     "link-args=-Wl,-z,undefs"
+# ]
+target-dir = "../../../target/build/aead/rustcrypto_aes_256_gcm/"

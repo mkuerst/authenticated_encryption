@@ -1,0 +1,2095 @@
+Gnuplot not found, using plotters backend
+Generating data...
+Data generated in 619.307 ms
+DATA SIZE: 1073741824 bytes (1024.000 MiB, 1.000 GiB)
+Physical cores: 128
+Logical cores:  64
+Benchmark: Config {
+    input_size: 1073741824,
+    max_threads: 64,
+    sample_size: 100,
+    measurement_time: 1s,
+    warmup_time: 5s,
+    confidence_level: 0.99,
+    alignment: 64,
+    do_hashes: false,
+    do_encryption: false,
+    do_aead: true,
+    do_thread_count_bench: false,
+    do_blocksize_bench: true,
+    do_only_blocksize_bench: true,
+    name_patterns: [],
+}
+Hashing benchmark took 0 seconds
+Encryption benchmark took 0 seconds
+Cannot open file "./target/dynlibs/aead/_Disabled" as a shared library (DlOpen { desc: "./target/dynlibs/aead/_Disabled: cannot read file data: Is a directory" }), skipping ...
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 26.4s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 26.419 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824
+                        time:   [263.18 ms 263.27 ms 263.37 ms]
+                        thrpt:  [3.7969 GiB/s 3.7984 GiB/s 3.7997 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 13.1s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 13.129 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824
+                        time:   [132.44 ms 132.53 ms 132.66 ms]
+                        thrpt:  [7.5382 GiB/s 7.5452 GiB/s 7.5506 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.5s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 6.5350 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824
+                        time:   [65.390 ms 65.467 ms 65.558 ms]
+                        thrpt:  [15.254 GiB/s 15.275 GiB/s 15.293 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.7s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 3.7115 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824
+                        time:   [37.110 ms 37.122 ms 37.134 ms]
+                        thrpt:  [26.929 GiB/s 26.938 GiB/s 26.947 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.7240 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824
+                        time:   [27.160 ms 27.171 ms 27.186 ms]
+                        thrpt:  [36.784 GiB/s 36.804 GiB/s 36.819 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.6348 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824
+                        time:   [26.274 ms 26.301 ms 26.335 ms]
+                        thrpt:  [37.972 GiB/s 38.021 GiB/s 38.060 GiB/s]
+Found 10 outliers among 100 measurements (10.00%)
+  4 (4.00%) high mild
+  6 (6.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.6251 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824
+                        time:   [26.210 ms 26.255 ms 26.312 ms]
+                        thrpt:  [38.005 GiB/s 38.087 GiB/s 38.153 GiB/s]
+Found 11 outliers among 100 measurements (11.00%)
+  2 (2.00%) high mild
+  9 (9.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.6210 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824
+                        time:   [26.165 ms 26.216 ms 26.283 ms]
+                        thrpt:  [38.048 GiB/s 38.144 GiB/s 38.218 GiB/s]
+Found 13 outliers among 100 measurements (13.00%)
+  4 (4.00%) high mild
+  9 (9.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.6256 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824
+                        time:   [26.173 ms 26.214 ms 26.266 ms]
+                        thrpt:  [38.072 GiB/s 38.147 GiB/s 38.208 GiB/s]
+Found 13 outliers among 100 measurements (13.00%)
+  4 (4.00%) high mild
+  9 (9.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.6270 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824
+                        time:   [26.211 ms 26.306 ms 26.457 ms]
+                        thrpt:  [37.796 GiB/s 38.014 GiB/s 38.152 GiB/s]
+Found 15 outliers among 100 measurements (15.00%)
+  3 (3.00%) high mild
+  12 (12.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 2.6312 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824
+                        time:   [26.231 ms 26.308 ms 26.456 ms]
+                        thrpt:  [37.799 GiB/s 38.011 GiB/s 38.122 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 2.6388 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824
+                        time:   [26.329 ms 26.351 ms 26.375 ms]
+                        thrpt:  [37.914 GiB/s 37.949 GiB/s 37.981 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 2.6569 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824
+                        time:   [26.495 ms 26.528 ms 26.561 ms]
+                        thrpt:  [37.649 GiB/s 37.696 GiB/s 37.743 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 2.6617 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824
+                        time:   [26.821 ms 26.956 ms 27.100 ms]
+                        thrpt:  [36.900 GiB/s 37.097 GiB/s 37.285 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 2.7071 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824
+                        time:   [26.410 ms 26.437 ms 26.465 ms]
+                        thrpt:  [37.786 GiB/s 37.826 GiB/s 37.864 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 2.8496 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824
+                        time:   [26.468 ms 26.560 ms 26.747 ms]
+                        thrpt:  [37.388 GiB/s 37.651 GiB/s 37.782 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.4s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 3.4139 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824
+                        time:   [33.142 ms 34.014 ms 34.995 ms]
+                        thrpt:  [28.575 GiB/s 29.399 GiB/s 30.173 GiB/s]
+Found 8 outliers among 100 measurements (8.00%)
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.1s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 4.0785 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824
+                        time:   [40.453 ms 41.016 ms 41.785 ms]
+                        thrpt:  [23.932 GiB/s 24.381 GiB/s 24.720 GiB/s]
+Found 14 outliers among 100 measurements (14.00%)
+  5 (5.00%) high mild
+  9 (9.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 7.9s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 7.8753 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824
+                        time:   [78.652 ms 78.719 ms 78.786 ms]
+                        thrpt:  [12.693 GiB/s 12.703 GiB/s 12.714 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 15.7s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 15.704 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824
+                        time:   [156.73 ms 156.88 ms 157.03 ms]
+                        thrpt:  [6.3684 GiB/s 6.3742 GiB/s 6.3803 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) low mild
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.1s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 31.142 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824
+                        time:   [311.32 ms 311.51 ms 311.70 ms]
+                        thrpt:  [3.2083 GiB/s 3.2102 GiB/s 3.2122 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.1s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 31.144 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824
+                        time:   [311.58 ms 311.76 ms 311.94 ms]
+                        thrpt:  [3.2057 GiB/s 3.2076 GiB/s 3.2095 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.2s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 31.209 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Analyzing
+aead/encrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824
+                        time:   [311.45 ms 311.63 ms 311.81 ms]
+                        thrpt:  [3.2071 GiB/s 3.2090 GiB/s 3.2108 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.1s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 6.1446 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824
+                        time:   [60.841 ms 60.901 ms 60.960 ms]
+                        thrpt:  [16.404 GiB/s 16.420 GiB/s 16.436 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.8s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 3.7780 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824
+                        time:   [37.662 ms 37.680 ms 37.700 ms]
+                        thrpt:  [26.525 GiB/s 26.539 GiB/s 26.552 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.3s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 3.2518 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824
+                        time:   [32.258 ms 32.270 ms 32.287 ms]
+                        thrpt:  [30.972 GiB/s 30.988 GiB/s 31.000 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 2.8055 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824
+                        time:   [28.018 ms 28.027 ms 28.036 ms]
+                        thrpt:  [35.668 GiB/s 35.680 GiB/s 35.692 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.7292 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824
+                        time:   [27.293 ms 27.305 ms 27.322 ms]
+                        thrpt:  [36.601 GiB/s 36.623 GiB/s 36.640 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.7074 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824
+                        time:   [27.065 ms 27.081 ms 27.099 ms]
+                        thrpt:  [36.902 GiB/s 36.927 GiB/s 36.947 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.6861 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824
+                        time:   [26.833 ms 26.853 ms 26.877 ms]
+                        thrpt:  [37.207 GiB/s 37.240 GiB/s 37.268 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.6864 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824
+                        time:   [26.852 ms 26.876 ms 26.902 ms]
+                        thrpt:  [37.172 GiB/s 37.208 GiB/s 37.241 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.7414 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824
+                        time:   [27.352 ms 27.380 ms 27.408 ms]
+                        thrpt:  [36.486 GiB/s 36.524 GiB/s 36.560 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.7220 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824
+                        time:   [27.172 ms 27.197 ms 27.223 ms]
+                        thrpt:  [36.734 GiB/s 36.769 GiB/s 36.802 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 2.8349 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824
+                        time:   [28.273 ms 28.368 ms 28.555 ms]
+                        thrpt:  [35.020 GiB/s 35.251 GiB/s 35.369 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.2s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 3.1963 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824
+                        time:   [31.818 ms 31.945 ms 32.130 ms]
+                        thrpt:  [31.124 GiB/s 31.304 GiB/s 31.429 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.5s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 4.5040 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824
+                        time:   [44.931 ms 45.045 ms 45.156 ms]
+                        thrpt:  [22.146 GiB/s 22.200 GiB/s 22.256 GiB/s]
+Found 8 outliers among 100 measurements (8.00%)
+  7 (7.00%) low mild
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.4s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 5.3832 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824
+                        time:   [54.082 ms 54.367 ms 54.672 ms]
+                        thrpt:  [18.291 GiB/s 18.393 GiB/s 18.490 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.8s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 4.7824 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824
+                        time:   [45.771 ms 46.245 ms 46.730 ms]
+                        thrpt:  [21.400 GiB/s 21.624 GiB/s 21.848 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.9s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 4.8768 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824
+                        time:   [45.235 ms 45.284 ms 45.333 ms]
+                        thrpt:  [22.059 GiB/s 22.083 GiB/s 22.107 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.3s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 6.3197 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824
+                        time:   [63.211 ms 64.677 ms 66.495 ms]
+                        thrpt:  [15.039 GiB/s 15.461 GiB/s 15.820 GiB/s]
+Found 13 outliers among 100 measurements (13.00%)
+  3 (3.00%) low mild
+  6 (6.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 9.3s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 9.3026 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824
+                        time:   [91.929 ms 92.692 ms 93.457 ms]
+                        thrpt:  [10.700 GiB/s 10.788 GiB/s 10.878 GiB/s]
+Found 27 outliers among 100 measurements (27.00%)
+  9 (9.00%) low severe
+  4 (4.00%) high mild
+  14 (14.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 16.620 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824
+                        time:   [164.53 ms 165.25 ms 166.12 ms]
+                        thrpt:  [6.0197 GiB/s 6.0513 GiB/s 6.0780 GiB/s]
+Found 15 outliers among 100 measurements (15.00%)
+  12 (12.00%) low severe
+  3 (3.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.2s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 31.160 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824
+                        time:   [310.81 ms 311.69 ms 312.85 ms]
+                        thrpt:  [3.1965 GiB/s 3.2084 GiB/s 3.2175 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  1 (1.00%) high mild
+  6 (6.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 61.9s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 61.881 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824
+                        time:   [618.64 ms 618.91 ms 619.18 ms]
+                        thrpt:  [1.6150 GiB/s 1.6157 GiB/s 1.6164 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 62.0s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 61.959 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824
+                        time:   [617.68 ms 618.02 ms 618.38 ms]
+                        thrpt:  [1.6171 GiB/s 1.6181 GiB/s 1.6190 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 61.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 61.604 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824
+                        time:   [614.42 ms 614.70 ms 615.02 ms]
+                        thrpt:  [1.6260 GiB/s 1.6268 GiB/s 1.6276 GiB/s]
+Found 14 outliers among 100 measurements (14.00%)
+  7 (7.00%) high mild
+  7 (7.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 3.1488 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824
+                        time:   [31.008 ms 31.022 ms 31.036 ms]
+                        thrpt:  [32.221 GiB/s 32.236 GiB/s 32.250 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 3.0299 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824
+                        time:   [30.213 ms 30.227 ms 30.241 ms]
+                        thrpt:  [33.067 GiB/s 33.083 GiB/s 33.098 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 3.0987 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824
+                        time:   [30.946 ms 30.957 ms 30.969 ms]
+                        thrpt:  [32.291 GiB/s 32.303 GiB/s 32.314 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 3.0455 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824
+                        time:   [30.415 ms 30.424 ms 30.432 ms]
+                        thrpt:  [32.860 GiB/s 32.869 GiB/s 32.878 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 3.0046 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824
+                        time:   [30.033 ms 30.043 ms 30.053 ms]
+                        thrpt:  [33.275 GiB/s 33.286 GiB/s 33.297 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 3.0020 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824
+                        time:   [29.952 ms 29.972 ms 29.998 ms]
+                        thrpt:  [33.336 GiB/s 33.364 GiB/s 33.387 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.9906 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824
+                        time:   [29.883 ms 29.912 ms 29.947 ms]
+                        thrpt:  [33.392 GiB/s 33.431 GiB/s 33.464 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  4 (4.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.9977 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824
+                        time:   [29.958 ms 30.017 ms 30.135 ms]
+                        thrpt:  [33.184 GiB/s 33.314 GiB/s 33.380 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 3.0684 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824
+                        time:   [30.587 ms 30.649 ms 30.710 ms]
+                        thrpt:  [32.562 GiB/s 32.628 GiB/s 32.693 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 3.0718 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824
+                        time:   [30.594 ms 30.656 ms 30.719 ms]
+                        thrpt:  [32.553 GiB/s 32.620 GiB/s 32.686 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.3s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 3.3186 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824
+                        time:   [33.034 ms 33.139 ms 33.238 ms]
+                        thrpt:  [30.086 GiB/s 30.176 GiB/s 30.272 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) low mild
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.7s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 3.6900 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824
+                        time:   [37.071 ms 37.234 ms 37.395 ms]
+                        thrpt:  [26.742 GiB/s 26.857 GiB/s 26.975 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.8s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 4.8208 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824
+                        time:   [47.644 ms 47.869 ms 48.092 ms]
+                        thrpt:  [20.794 GiB/s 20.890 GiB/s 20.989 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.5s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 5.5486 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824
+                        time:   [54.864 ms 54.923 ms 54.989 ms]
+                        thrpt:  [18.186 GiB/s 18.207 GiB/s 18.227 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.8s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 4.7990 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824
+                        time:   [47.909 ms 47.955 ms 48.002 ms]
+                        thrpt:  [20.833 GiB/s 20.853 GiB/s 20.873 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.0s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 4.9808 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824
+                        time:   [48.911 ms 48.957 ms 49.005 ms]
+                        thrpt:  [20.406 GiB/s 20.426 GiB/s 20.445 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 7.4s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 7.4162 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824
+                        time:   [72.522 ms 73.992 ms 75.844 ms]
+                        thrpt:  [13.185 GiB/s 13.515 GiB/s 13.789 GiB/s]
+Found 11 outliers among 100 measurements (11.00%)
+  3 (3.00%) low mild
+  4 (4.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 11.5s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 11.472 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824
+                        time:   [111.98 ms 113.07 ms 114.29 ms]
+                        thrpt:  [8.7496 GiB/s 8.8441 GiB/s 8.9298 GiB/s]
+Found 32 outliers among 100 measurements (32.00%)
+  15 (15.00%) low severe
+  1 (1.00%) low mild
+  16 (16.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 21.0s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 20.967 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824
+                        time:   [204.97 ms 205.66 ms 206.63 ms]
+                        thrpt:  [4.8396 GiB/s 4.8624 GiB/s 4.8788 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  1 (1.00%) high mild
+  6 (6.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 40.5s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 40.536 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824
+                        time:   [404.79 ms 405.47 ms 405.84 ms]
+                        thrpt:  [2.4640 GiB/s 2.4663 GiB/s 2.4704 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) low severe
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 77.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 77.560 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824
+                        time:   [775.55 ms 775.73 ms 775.92 ms]
+                        thrpt:  [1.2888 GiB/s 1.2891 GiB/s 1.2894 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 77.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 77.628 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824
+                        time:   [775.26 ms 775.38 ms 775.50 ms]
+                        thrpt:  [1.2895 GiB/s 1.2897 GiB/s 1.2899 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 77.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 77.552 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Analyzing
+aead/encrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824
+                        time:   [775.23 ms 775.34 ms 775.45 ms]
+                        thrpt:  [1.2896 GiB/s 1.2898 GiB/s 1.2899 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 2.7233 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824
+                        time:   [27.180 ms 27.248 ms 27.412 ms]
+                        thrpt:  [36.480 GiB/s 36.699 GiB/s 36.791 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 2.6673 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824
+                        time:   [26.656 ms 26.670 ms 26.685 ms]
+                        thrpt:  [37.474 GiB/s 37.495 GiB/s 37.515 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 2.6397 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824
+                        time:   [26.369 ms 26.381 ms 26.393 ms]
+                        thrpt:  [37.889 GiB/s 37.907 GiB/s 37.924 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 2.6256 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824
+                        time:   [26.241 ms 26.253 ms 26.266 ms]
+                        thrpt:  [38.072 GiB/s 38.090 GiB/s 38.108 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.6187 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824
+                        time:   [26.162 ms 26.176 ms 26.192 ms]
+                        thrpt:  [38.180 GiB/s 38.203 GiB/s 38.224 GiB/s]
+Found 9 outliers among 100 measurements (9.00%)
+  7 (7.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.6159 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824
+                        time:   [26.130 ms 26.144 ms 26.160 ms]
+                        thrpt:  [38.226 GiB/s 38.249 GiB/s 38.270 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.6121 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824
+                        time:   [26.108 ms 26.125 ms 26.148 ms]
+                        thrpt:  [38.244 GiB/s 38.277 GiB/s 38.302 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.6106 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824
+                        time:   [26.087 ms 26.102 ms 26.119 ms]
+                        thrpt:  [38.286 GiB/s 38.311 GiB/s 38.333 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.6123 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824
+                        time:   [26.091 ms 26.106 ms 26.122 ms]
+                        thrpt:  [38.281 GiB/s 38.306 GiB/s 38.328 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.6118 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824
+                        time:   [26.101 ms 26.116 ms 26.133 ms]
+                        thrpt:  [38.266 GiB/s 38.291 GiB/s 38.313 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 2.6138 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824
+                        time:   [26.132 ms 26.151 ms 26.175 ms]
+                        thrpt:  [38.205 GiB/s 38.240 GiB/s 38.268 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 2.6231 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824
+                        time:   [26.190 ms 26.205 ms 26.221 ms]
+                        thrpt:  [38.137 GiB/s 38.160 GiB/s 38.183 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 2.6350 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824
+                        time:   [26.305 ms 26.330 ms 26.356 ms]
+                        thrpt:  [37.942 GiB/s 37.979 GiB/s 38.016 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 2.6356 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824
+                        time:   [26.257 ms 26.292 ms 26.333 ms]
+                        thrpt:  [37.976 GiB/s 38.034 GiB/s 38.085 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  1 (1.00%) high mild
+  6 (6.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 2.6289 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824
+                        time:   [26.248 ms 26.276 ms 26.313 ms]
+                        thrpt:  [38.005 GiB/s 38.057 GiB/s 38.098 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 2.6538 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824
+                        time:   [26.514 ms 26.783 ms 27.083 ms]
+                        thrpt:  [36.924 GiB/s 37.338 GiB/s 37.716 GiB/s]
+Found 20 outliers among 100 measurements (20.00%)
+  1 (1.00%) high mild
+  19 (19.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 3.1075 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824
+                        time:   [30.618 ms 31.413 ms 32.275 ms]
+                        thrpt:  [30.984 GiB/s 31.834 GiB/s 32.661 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.4s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 3.4307 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824
+                        time:   [33.729 ms 34.689 ms 35.680 ms]
+                        thrpt:  [28.027 GiB/s 28.827 GiB/s 29.648 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.5s, or reduce sample count to 20.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 4.4764 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824
+                        time:   [44.226 ms 44.999 ms 45.944 ms]
+                        thrpt:  [21.766 GiB/s 22.223 GiB/s 22.611 GiB/s]
+Found 13 outliers among 100 measurements (13.00%)
+  3 (3.00%) high mild
+  10 (10.00%) high severe
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 8.4s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 8.3943 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824
+                        time:   [83.713 ms 83.785 ms 83.856 ms]
+                        thrpt:  [11.925 GiB/s 11.935 GiB/s 11.946 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 16.600 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824
+                        time:   [165.75 ms 165.86 ms 165.98 ms]
+                        thrpt:  [6.0250 GiB/s 6.0291 GiB/s 6.0333 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 16.631 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824
+                        time:   [166.15 ms 166.25 ms 166.35 ms]
+                        thrpt:  [6.0114 GiB/s 6.0151 GiB/s 6.0187 GiB/s]
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 16.613 s (100 iterations)
+Benchmarking aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Analyzing
+aead/encrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824
+                        time:   [165.97 ms 166.06 ms 166.14 ms]
+                        thrpt:  [6.0189 GiB/s 6.0221 GiB/s 6.0253 GiB/s]
+
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 25.9s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 25.851 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000001024/1073741824
+                        time:   [258.12 ms 258.20 ms 258.28 ms]
+                        thrpt:  [3.8718 GiB/s 3.8729 GiB/s 3.8741 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 13.2s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 13.196 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000002048/1073741824
+                        time:   [131.92 ms 131.95 ms 131.98 ms]
+                        thrpt:  [7.5771 GiB/s 7.5788 GiB/s 7.5804 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.5s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 6.4985 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000004096/1073741824
+                        time:   [64.865 ms 64.892 ms 64.921 ms]
+                        thrpt:  [15.403 GiB/s 15.410 GiB/s 15.417 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.7s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 3.7024 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000008192/1073741824
+                        time:   [36.955 ms 36.969 ms 36.984 ms]
+                        thrpt:  [27.038 GiB/s 27.050 GiB/s 27.060 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.7415 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000016384/1073741824
+                        time:   [27.389 ms 27.415 ms 27.449 ms]
+                        thrpt:  [36.431 GiB/s 36.476 GiB/s 36.511 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.6334 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000032768/1073741824
+                        time:   [26.272 ms 26.318 ms 26.378 ms]
+                        thrpt:  [37.911 GiB/s 37.997 GiB/s 38.064 GiB/s]
+Found 12 outliers among 100 measurements (12.00%)
+  5 (5.00%) high mild
+  7 (7.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.6146 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000065536/1073741824
+                        time:   [26.140 ms 26.155 ms 26.174 ms]
+                        thrpt:  [38.206 GiB/s 38.234 GiB/s 38.256 GiB/s]
+Found 11 outliers among 100 measurements (11.00%)
+  10 (10.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.6159 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000131072/1073741824
+                        time:   [26.146 ms 26.161 ms 26.177 ms]
+                        thrpt:  [38.201 GiB/s 38.225 GiB/s 38.246 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.6111 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000262144/1073741824
+                        time:   [26.103 ms 26.112 ms 26.122 ms]
+                        thrpt:  [38.282 GiB/s 38.296 GiB/s 38.309 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.6163 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000000524288/1073741824
+                        time:   [26.158 ms 26.172 ms 26.187 ms]
+                        thrpt:  [38.186 GiB/s 38.209 GiB/s 38.230 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 2.6202 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000001048576/1073741824
+                        time:   [26.193 ms 26.216 ms 26.243 ms]
+                        thrpt:  [38.106 GiB/s 38.145 GiB/s 38.178 GiB/s]
+Found 9 outliers among 100 measurements (9.00%)
+  5 (5.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 2.6357 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000002097152/1073741824
+                        time:   [26.313 ms 26.329 ms 26.347 ms]
+                        thrpt:  [37.956 GiB/s 37.980 GiB/s 38.004 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 2.6457 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000004194304/1073741824
+                        time:   [26.397 ms 26.424 ms 26.452 ms]
+                        thrpt:  [37.804 GiB/s 37.844 GiB/s 37.884 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 2.6452 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000008388608/1073741824
+                        time:   [26.746 ms 26.857 ms 26.975 ms]
+                        thrpt:  [37.071 GiB/s 37.234 GiB/s 37.389 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 2.6482 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000016777216/1073741824
+                        time:   [26.419 ms 26.467 ms 26.552 ms]
+                        thrpt:  [37.662 GiB/s 37.783 GiB/s 37.851 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 2.6873 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000033554432/1073741824
+                        time:   [26.332 ms 26.356 ms 26.381 ms]
+                        thrpt:  [37.906 GiB/s 37.942 GiB/s 37.977 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.4s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 3.4101 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000067108864/1073741824
+                        time:   [32.389 ms 33.138 ms 33.919 ms]
+                        thrpt:  [29.482 GiB/s 30.177 GiB/s 30.874 GiB/s]
+Found 10 outliers among 100 measurements (10.00%)
+  4 (4.00%) low mild
+  6 (6.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.0s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 4.0479 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000134217728/1073741824
+                        time:   [39.661 ms 40.431 ms 41.427 ms]
+                        thrpt:  [24.139 GiB/s 24.734 GiB/s 25.213 GiB/s]
+Found 8 outliers among 100 measurements (8.00%)
+  1 (1.00%) high mild
+  7 (7.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 7.7s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 7.7220 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000268435456/1073741824
+                        time:   [76.855 ms 76.927 ms 77.002 ms]
+                        thrpt:  [12.987 GiB/s 12.999 GiB/s 13.012 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 15.4s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 15.358 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_000536870912/1073741824
+                        time:   [153.34 ms 153.43 ms 153.52 ms]
+                        thrpt:  [6.5138 GiB/s 6.5178 GiB/s 6.5217 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 30.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 30.594 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_001073741824/1073741824
+                        time:   [305.72 ms 305.89 ms 306.06 ms]
+                        thrpt:  [3.2673 GiB/s 3.2692 GiB/s 3.2709 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 30.7s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 30.693 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_002147483648/1073741824
+                        time:   [306.37 ms 306.50 ms 306.64 ms]
+                        thrpt:  [3.2612 GiB/s 3.2626 GiB/s 3.2641 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 30.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 30.559 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824: Analyzing
+aead/decrypt/aead_par_split_aes_256_gcm_par_032_block_004294967296/1073741824
+                        time:   [305.59 ms 305.79 ms 305.99 ms]
+                        thrpt:  [3.2681 GiB/s 3.2702 GiB/s 3.2724 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.1s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 6.0535 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000001024/1073741824
+                        time:   [60.130 ms 60.159 ms 60.194 ms]
+                        thrpt:  [16.613 GiB/s 16.623 GiB/s 16.631 GiB/s]
+Found 11 outliers among 100 measurements (11.00%)
+  2 (2.00%) high mild
+  9 (9.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.0s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 4.0113 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000002048/1073741824
+                        time:   [40.110 ms 40.134 ms 40.164 ms]
+                        thrpt:  [24.898 GiB/s 24.917 GiB/s 24.932 GiB/s]
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) high mild
+  5 (5.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.2s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 3.1957 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000004096/1073741824
+                        time:   [31.896 ms 31.919 ms 31.948 ms]
+                        thrpt:  [31.301 GiB/s 31.330 GiB/s 31.352 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 2.8467 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000008192/1073741824
+                        time:   [28.465 ms 28.487 ms 28.516 ms]
+                        thrpt:  [35.068 GiB/s 35.104 GiB/s 35.131 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) high mild
+  4 (4.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.7921 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000016384/1073741824
+                        time:   [27.886 ms 27.900 ms 27.913 ms]
+                        thrpt:  [35.825 GiB/s 35.843 GiB/s 35.860 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.9s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.8504 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000032768/1073741824
+                        time:   [28.463 ms 28.492 ms 28.524 ms]
+                        thrpt:  [35.059 GiB/s 35.098 GiB/s 35.133 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.8s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.8458 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000065536/1073741824
+                        time:   [28.401 ms 28.435 ms 28.470 ms]
+                        thrpt:  [35.125 GiB/s 35.168 GiB/s 35.209 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.9s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.9188 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000131072/1073741824
+                        time:   [29.133 ms 29.187 ms 29.245 ms]
+                        thrpt:  [34.194 GiB/s 34.262 GiB/s 34.325 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.9s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.8834 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000262144/1073741824
+                        time:   [28.748 ms 28.810 ms 28.872 ms]
+                        thrpt:  [34.635 GiB/s 34.710 GiB/s 34.784 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.9s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.8749 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000000524288/1073741824
+                        time:   [28.692 ms 28.756 ms 28.823 ms]
+                        thrpt:  [34.694 GiB/s 34.775 GiB/s 34.853 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 3.0825 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000001048576/1073741824
+                        time:   [30.749 ms 30.918 ms 31.162 ms]
+                        thrpt:  [32.090 GiB/s 32.344 GiB/s 32.521 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.5s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 3.5122 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000002097152/1073741824
+                        time:   [35.085 ms 35.227 ms 35.383 ms]
+                        thrpt:  [28.262 GiB/s 28.387 GiB/s 28.502 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.7s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 4.6566 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000004194304/1073741824
+                        time:   [46.629 ms 46.797 ms 46.970 ms]
+                        thrpt:  [21.290 GiB/s 21.369 GiB/s 21.446 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.2s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 5.2099 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000008388608/1073741824
+                        time:   [51.530 ms 51.565 ms 51.604 ms]
+                        thrpt:  [19.378 GiB/s 19.393 GiB/s 19.406 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.6s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 4.5671 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000016777216/1073741824
+                        time:   [45.634 ms 45.667 ms 45.702 ms]
+                        thrpt:  [21.881 GiB/s 21.898 GiB/s 21.913 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.6s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 4.5649 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000033554432/1073741824
+                        time:   [45.092 ms 45.147 ms 45.205 ms]
+                        thrpt:  [22.122 GiB/s 22.150 GiB/s 22.177 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.1s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 6.1356 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000067108864/1073741824
+                        time:   [60.198 ms 60.992 ms 62.086 ms]
+                        thrpt:  [16.107 GiB/s 16.396 GiB/s 16.612 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 9.2s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 9.2250 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000134217728/1073741824
+                        time:   [91.868 ms 92.585 ms 93.377 ms]
+                        thrpt:  [10.709 GiB/s 10.801 GiB/s 10.885 GiB/s]
+Found 24 outliers among 100 measurements (24.00%)
+  5 (5.00%) low severe
+  1 (1.00%) low mild
+  18 (18.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.7s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 16.691 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000268435456/1073741824
+                        time:   [164.98 ms 165.76 ms 166.65 ms]
+                        thrpt:  [6.0007 GiB/s 6.0330 GiB/s 6.0614 GiB/s]
+Found 13 outliers among 100 measurements (13.00%)
+  9 (9.00%) low severe
+  1 (1.00%) high mild
+  3 (3.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.3s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 31.329 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_000536870912/1073741824
+                        time:   [312.26 ms 312.76 ms 313.49 ms]
+                        thrpt:  [3.1899 GiB/s 3.1974 GiB/s 3.2024 GiB/s]
+Found 10 outliers among 100 measurements (10.00%)
+  7 (7.00%) high mild
+  3 (3.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 61.8s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 61.783 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_001073741824/1073741824
+                        time:   [618.64 ms 618.88 ms 619.14 ms]
+                        thrpt:  [1.6151 GiB/s 1.6158 GiB/s 1.6164 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 62.3s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 62.350 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_002147483648/1073741824
+                        time:   [622.95 ms 623.16 ms 623.38 ms]
+                        thrpt:  [1.6042 GiB/s 1.6047 GiB/s 1.6053 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 61.9s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 61.908 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_blake3_par_032_block_004294967296/1073741824
+                        time:   [617.99 ms 618.28 ms 618.56 ms]
+                        thrpt:  [1.6167 GiB/s 1.6174 GiB/s 1.6181 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.3s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 3.3394 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000001024/1073741824
+                        time:   [32.968 ms 32.981 ms 32.995 ms]
+                        thrpt:  [30.308 GiB/s 30.320 GiB/s 30.332 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 3.0036 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000002048/1073741824
+                        time:   [29.928 ms 29.940 ms 29.951 ms]
+                        thrpt:  [33.387 GiB/s 33.400 GiB/s 33.413 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 3.0633 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000004096/1073741824
+                        time:   [30.619 ms 30.634 ms 30.656 ms]
+                        thrpt:  [32.620 GiB/s 32.643 GiB/s 32.659 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 2.9918 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000008192/1073741824
+                        time:   [29.929 ms 29.943 ms 29.958 ms]
+                        thrpt:  [33.380 GiB/s 33.397 GiB/s 33.412 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 3.0515 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000016384/1073741824
+                        time:   [30.475 ms 30.490 ms 30.506 ms]
+                        thrpt:  [32.780 GiB/s 32.798 GiB/s 32.814 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.9837 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000032768/1073741824
+                        time:   [29.768 ms 29.783 ms 29.799 ms]
+                        thrpt:  [33.558 GiB/s 33.576 GiB/s 33.593 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 3.0162 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000065536/1073741824
+                        time:   [30.123 ms 30.155 ms 30.189 ms]
+                        thrpt:  [33.124 GiB/s 33.162 GiB/s 33.198 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.0s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.9945 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000131072/1073741824
+                        time:   [29.910 ms 29.945 ms 29.981 ms]
+                        thrpt:  [33.354 GiB/s 33.394 GiB/s 33.433 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 3.0963 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000262144/1073741824
+                        time:   [30.923 ms 30.994 ms 31.066 ms]
+                        thrpt:  [32.189 GiB/s 32.265 GiB/s 32.338 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 3.0536 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000000524288/1073741824
+                        time:   [30.471 ms 30.510 ms 30.551 ms]
+                        thrpt:  [32.732 GiB/s 32.776 GiB/s 32.819 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.3s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 3.3370 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000001048576/1073741824
+                        time:   [33.335 ms 33.442 ms 33.558 ms]
+                        thrpt:  [29.800 GiB/s 29.902 GiB/s 29.998 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.6s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 3.5820 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000002097152/1073741824
+                        time:   [35.684 ms 35.790 ms 35.896 ms]
+                        thrpt:  [27.858 GiB/s 27.940 GiB/s 28.023 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.8s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 4.7550 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000004194304/1073741824
+                        time:   [47.486 ms 47.613 ms 47.736 ms]
+                        thrpt:  [20.949 GiB/s 21.003 GiB/s 21.059 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.5s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 5.5463 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000008388608/1073741824
+                        time:   [55.468 ms 55.493 ms 55.517 ms]
+                        thrpt:  [18.012 GiB/s 18.020 GiB/s 18.029 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.0s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 4.9691 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000016777216/1073741824
+                        time:   [49.430 ms 49.473 ms 49.517 ms]
+                        thrpt:  [20.195 GiB/s 20.213 GiB/s 20.231 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.0s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 4.9564 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000033554432/1073741824
+                        time:   [49.532 ms 49.561 ms 49.591 ms]
+                        thrpt:  [20.165 GiB/s 20.177 GiB/s 20.189 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 6.9s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 6.9211 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000067108864/1073741824
+                        time:   [68.289 ms 68.844 ms 69.390 ms]
+                        thrpt:  [14.411 GiB/s 14.526 GiB/s 14.644 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) low mild
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 11.3s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 11.289 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000134217728/1073741824
+                        time:   [112.47 ms 113.22 ms 114.03 ms]
+                        thrpt:  [8.7700 GiB/s 8.8321 GiB/s 8.8916 GiB/s]
+Found 31 outliers among 100 measurements (31.00%)
+  4 (4.00%) low severe
+  3 (3.00%) low mild
+  18 (18.00%) high mild
+  6 (6.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 20.5s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 20.513 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000268435456/1073741824
+                        time:   [204.95 ms 205.13 ms 205.23 ms]
+                        thrpt:  [4.8726 GiB/s 4.8749 GiB/s 4.8792 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 39.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 39.574 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_000536870912/1073741824
+                        time:   [392.21 ms 393.69 ms 395.39 ms]
+                        thrpt:  [2.5291 GiB/s 2.5401 GiB/s 2.5496 GiB/s]
+Found 19 outliers among 100 measurements (19.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+  17 (17.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 78.1s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 78.149 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_001073741824/1073741824
+                        time:   [782.71 ms 782.95 ms 783.18 ms]
+                        thrpt:  [1.2769 GiB/s 1.2772 GiB/s 1.2776 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 77.9s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 77.922 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_002147483648/1073741824
+                        time:   [778.80 ms 778.98 ms 779.16 ms]
+                        thrpt:  [1.2834 GiB/s 1.2837 GiB/s 1.2840 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 78.2s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 78.176 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824: Analyzing
+aead/decrypt/aead_par_split_rustcrypto_aes_256_gcm_par_032_block_004294967296/1073741824
+                        time:   [781.57 ms 781.76 ms 781.93 ms]
+                        thrpt:  [1.2789 GiB/s 1.2792 GiB/s 1.2795 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.7s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Collecting 100 samples in estimated 2.6774 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000001024/1073741824
+                        time:   [26.743 ms 26.759 ms 26.780 ms]
+                        thrpt:  [37.341 GiB/s 37.371 GiB/s 37.393 GiB/s]
+Found 9 outliers among 100 measurements (9.00%)
+  1 (1.00%) low mild
+  5 (5.00%) high mild
+  3 (3.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Collecting 100 samples in estimated 2.6440 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000002048/1073741824
+                        time:   [26.443 ms 26.457 ms 26.473 ms]
+                        thrpt:  [37.774 GiB/s 37.797 GiB/s 37.817 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Collecting 100 samples in estimated 2.6282 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000004096/1073741824
+                        time:   [26.272 ms 26.290 ms 26.313 ms]
+                        thrpt:  [38.003 GiB/s 38.037 GiB/s 38.063 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Collecting 100 samples in estimated 2.6212 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000008192/1073741824
+                        time:   [26.191 ms 26.203 ms 26.217 ms]
+                        thrpt:  [38.143 GiB/s 38.163 GiB/s 38.181 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Collecting 100 samples in estimated 2.6154 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000016384/1073741824
+                        time:   [26.146 ms 26.160 ms 26.175 ms]
+                        thrpt:  [38.204 GiB/s 38.227 GiB/s 38.246 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Collecting 100 samples in estimated 2.6135 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000032768/1073741824
+                        time:   [26.112 ms 26.129 ms 26.148 ms]
+                        thrpt:  [38.244 GiB/s 38.272 GiB/s 38.297 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Collecting 100 samples in estimated 2.6136 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000065536/1073741824
+                        time:   [26.102 ms 26.117 ms 26.132 ms]
+                        thrpt:  [38.267 GiB/s 38.290 GiB/s 38.312 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Collecting 100 samples in estimated 2.6112 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000131072/1073741824
+                        time:   [26.090 ms 26.115 ms 26.161 ms]
+                        thrpt:  [38.225 GiB/s 38.292 GiB/s 38.329 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Collecting 100 samples in estimated 2.6218 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000262144/1073741824
+                        time:   [26.149 ms 26.223 ms 26.336 ms]
+                        thrpt:  [37.972 GiB/s 38.135 GiB/s 38.243 GiB/s]
+Found 7 outliers among 100 measurements (7.00%)
+  2 (2.00%) high mild
+  5 (5.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Collecting 100 samples in estimated 2.6121 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000000524288/1073741824
+                        time:   [26.098 ms 26.119 ms 26.149 ms]
+                        thrpt:  [38.242 GiB/s 38.286 GiB/s 38.318 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Collecting 100 samples in estimated 2.6182 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000001048576/1073741824
+                        time:   [26.129 ms 26.144 ms 26.161 ms]
+                        thrpt:  [38.226 GiB/s 38.249 GiB/s 38.272 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  6 (6.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Collecting 100 samples in estimated 2.6245 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000002097152/1073741824
+                        time:   [26.203 ms 26.219 ms 26.238 ms]
+                        thrpt:  [38.113 GiB/s 38.140 GiB/s 38.164 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Collecting 100 samples in estimated 2.6338 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000004194304/1073741824
+                        time:   [26.278 ms 26.301 ms 26.324 ms]
+                        thrpt:  [37.988 GiB/s 38.022 GiB/s 38.055 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Collecting 100 samples in estimated 2.6310 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000008388608/1073741824
+                        time:   [26.331 ms 26.387 ms 26.446 ms]
+                        thrpt:  [37.812 GiB/s 37.898 GiB/s 37.978 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Collecting 100 samples in estimated 2.6240 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000016777216/1073741824
+                        time:   [26.247 ms 26.268 ms 26.290 ms]
+                        thrpt:  [38.038 GiB/s 38.070 GiB/s 38.100 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 2.6s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Collecting 100 samples in estimated 2.6355 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000033554432/1073741824
+                        time:   [26.325 ms 26.347 ms 26.369 ms]
+                        thrpt:  [37.923 GiB/s 37.955 GiB/s 37.987 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.1s, or reduce sample count to 30.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Collecting 100 samples in estimated 3.1221 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000067108864/1073741824
+                        time:   [30.462 ms 31.143 ms 31.872 ms]
+                        thrpt:  [31.375 GiB/s 32.110 GiB/s 32.828 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 3.4s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Collecting 100 samples in estimated 3.3680 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000134217728/1073741824
+                        time:   [33.235 ms 34.207 ms 35.252 ms]
+                        thrpt:  [28.367 GiB/s 29.234 GiB/s 30.089 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 4.6s, or reduce sample count to 20.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Collecting 100 samples in estimated 4.5657 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000268435456/1073741824
+                        time:   [44.428 ms 44.981 ms 45.729 ms]
+                        thrpt:  [21.868 GiB/s 22.231 GiB/s 22.508 GiB/s]
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 8.4s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Collecting 100 samples in estimated 8.4187 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_000536870912/1073741824
+                        time:   [83.950 ms 84.027 ms 84.100 ms]
+                        thrpt:  [11.891 GiB/s 11.901 GiB/s 11.912 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) low severe
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Collecting 100 samples in estimated 16.574 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_001073741824/1073741824
+                        time:   [165.64 ms 165.75 ms 165.86 ms]
+                        thrpt:  [6.0293 GiB/s 6.0333 GiB/s 6.0372 GiB/s]
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Collecting 100 samples in estimated 16.609 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_002147483648/1073741824
+                        time:   [165.61 ms 165.69 ms 165.77 ms]
+                        thrpt:  [6.0324 GiB/s 6.0353 GiB/s 6.0382 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.6s, or reduce sample count to 10.
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Collecting 100 samples in estimated 16.566 s (100 iterations)
+Benchmarking aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824: Analyzing
+aead/decrypt/aead_par_split_xor_deadbeef_par_032_block_004294967296/1073741824
+                        time:   [165.39 ms 165.47 ms 165.56 ms]
+                        thrpt:  [6.0401 GiB/s 6.0432 GiB/s 6.0463 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+
+AEAD benchmark took 3369.748 seconds
+Benchmark complete in 3370.500 seconds ~= 0.936 hours
+	AEAD:       3369.748 seconds ~= 0.936 hours. ~= 18.314 sec/test, 184 tests in total

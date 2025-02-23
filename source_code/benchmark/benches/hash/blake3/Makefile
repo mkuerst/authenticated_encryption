@@ -1,0 +1,20 @@
+include ../../base.mk
+
+MISC :=  blake3hash.cpp blake3.c blake3_dispatch.c blake3_portable.c blake3_sse2_x86-64_unix.S blake3_sse41_x86-64_unix.S blake3_avx2_x86-64_unix.S blake3_avx512_x86-64_unix.S ../hash.hpp
+
+SRCS := $(wildcard *.c) $(wildcard *.S)
+OBJS := $(patsubst %.c, $(BUILD_DIR)/%.o, $(filter %.c, $(SRCS))) $(patsubst %.S, $(BUILD_DIR)/%.o, $(filter %.S, $(SRCS)))
+
+all: $(LIB_DIR)/libblake3.so
+
+$(BUILD_DIR)/%.o: ./%.c
+	gcc $(C_FLAGS) -c $< -o $@
+
+$(BUILD_DIR)/%.o: ./%.S
+	gcc $(C_FLAGS) -c $< -o $@
+
+$(BUILD_DIR)/blake3hash.o: blake3hash.cpp blake3.h ../hash.hpp
+	gcc $(C_FLAGS) -c $< -o $@
+
+$(LIB_DIR)/libblake3.so: $(BUILD_DIR)/blake3hash.o $(OBJS)
+	gcc $(LD_FLAGS) $? -o $@

@@ -1,0 +1,3 @@
+[build]
+# rustflags = ["-Cprefer-dynamic"]
+target-dir = "../../../target/build/hash/blake3rust/"

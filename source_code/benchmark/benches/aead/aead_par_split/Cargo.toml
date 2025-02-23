@@ -1,0 +1,41 @@
+[package]
+name = "aead_par_split"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name         = "aead_par_split"
+crate-type   = ["cdylib"] # ["rlib", "cdylib"]
+
+[features]
+xor_deadbeef = []
+aes_256_gcm = []
+cryptopp_gcm = []
+aes128ctr_sha256 = []
+aes128ofb_sha256 = []
+aes256ctr_sha256 = []
+aes256ofb_sha256 = []
+rustcrypto_aes_256_gcm = ["dep:rustcrypto_aes_256_gcm"]
+rustcrypto_aes_256_blake3 = ["dep:rustcrypto_aes_256_blake3"]
+
+[dependencies]
+rayon = "1.8.0"
+rustcrypto_aes_256_gcm = { path = "../rustcrypto_aes_256_gcm/", features = ["use_with_rust"], optional = true }
+rustcrypto_aes_256_blake3 = { path = "../rustcrypto_aes_256_blake3/", features = ["use_with_rust"], optional = true }
+
+[build-dependencies]
+cc = "1.0.83"
+
+[profile.dev]
+opt-level = 3
+# lto="fat"
+
+[profile.release]
+# rustflags = ["-C", "target-cpu=native"] # TODO
+codegen-units = 1
+opt-level = 3
+lto="fat"
+panic = "abort"
+strip = "debuginfo"

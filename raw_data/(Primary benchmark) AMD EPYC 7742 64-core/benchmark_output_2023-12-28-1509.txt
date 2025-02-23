@@ -1,0 +1,569 @@
+Gnuplot not found, using plotters backend
+Generating data...
+Data generated in 616.145 ms
+DATA SIZE: 1073741824 bytes (1024.000 MiB, 1.000 GiB)
+Physical cores: 128
+Logical cores:  64
+Benchmark: Config {
+    input_size: 1073741824,
+    max_threads: 64,
+    sample_size: 100,
+    measurement_time: 1s,
+    warmup_time: 5s,
+    confidence_level: 0.99,
+    alignment: 64,
+    do_hashes: true,
+    do_encryption: true,
+    do_aead: false,
+    do_thread_count_bench: true,
+    do_blocksize_bench: true,
+    do_only_blocksize_bench: false,
+    name_patterns: [],
+}
+Cannot open file "./target/dynlibs/hash/_Disabled" as a shared library (DlOpen { desc: "./target/dynlibs/hash/_Disabled: cannot read file data: Is a directory" }), skipping ...
+Benchmarking hash/blake2b512/1073741824
+Benchmarking hash/blake2b512/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 130.0s, or reduce sample count to 10.
+Benchmarking hash/blake2b512/1073741824: Collecting 100 samples in estimated 130.04 s (100 iterations)
+Benchmarking hash/blake2b512/1073741824: Analyzing
+hash/blake2b512/1073741824
+                        time:   [1.2819 s 1.2821 s 1.2823 s]
+                        thrpt:  [798.58 MiB/s 798.70 MiB/s 798.82 MiB/s]
+Output of hashing algorithm (64 bytes): 0x8fea85e88c1a7fcc49dd7dc85137db882711e8983904074456b765b6dd2f7fdf0dbf3239b5ace2344bb5223d046185397f34a7727db39249e289b21659454c
+Benchmarking hash/blake2s256/1073741824
+Benchmarking hash/blake2s256/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 215.9s, or reduce sample count to 10.
+Benchmarking hash/blake2s256/1073741824: Collecting 100 samples in estimated 215.93 s (100 iterations)
+Benchmarking hash/blake2s256/1073741824: Analyzing
+hash/blake2s256/1073741824
+                        time:   [2.1552 s 2.1555 s 2.1558 s]
+                        thrpt:  [474.99 MiB/s 475.06 MiB/s 475.13 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Output of hashing algorithm (32 bytes): 0x2caad44609d11eb337db8b91f5522df0cef398418be19aaa06e85eb92e46
+Benchmarking hash/blake3_the2nd/1073741824
+Benchmarking hash/blake3_the2nd/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 31.9s, or reduce sample count to 10.
+Benchmarking hash/blake3_the2nd/1073741824: Collecting 100 samples in estimated 31.947 s (100 iterations)
+Benchmarking hash/blake3_the2nd/1073741824: Analyzing
+hash/blake3_the2nd/1073741824
+                        time:   [319.14 ms 319.18 ms 319.23 ms]
+                        thrpt:  [3.1325 GiB/s 3.1330 GiB/s 3.1335 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Output of hashing algorithm (32 bytes): 0x9b9583757c983259ab874065a57f7486089b6b095878b1a8d41514ba61e94e
+Benchmarking hash/blake3rust/1073741824
+Benchmarking hash/blake3rust/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 1.3s, or reduce sample count to 70.
+Benchmarking hash/blake3rust/1073741824: Collecting 100 samples in estimated 1.3389 s (100 iterations)
+Benchmarking hash/blake3rust/1073741824: Analyzing
+hash/blake3rust/1073741824
+                        time:   [13.044 ms 13.054 ms 13.065 ms]
+                        thrpt:  [76.542 GiB/s 76.607 GiB/s 76.665 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Output of hashing algorithm (32 bytes): 0x9b9583757c983259ab874065a57f7486089b6b095878b1a8d41514ba61e94e
+Benchmarking hash/gmac/1073741824
+Benchmarking hash/gmac/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 14.6s, or reduce sample count to 10.
+Benchmarking hash/gmac/1073741824: Collecting 100 samples in estimated 14.568 s (100 iterations)
+Benchmarking hash/gmac/1073741824: Analyzing
+hash/gmac/1073741824    time:   [143.58 ms 143.71 ms 143.88 ms]
+                        thrpt:  [6.9504 GiB/s 6.9582 GiB/s 6.9647 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+Output of hashing algorithm (16 bytes): 0x16c61d78572b5aaddafa2fb1f9588234
+Benchmarking hash/blake3/1073741824
+Benchmarking hash/blake3/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 32.0s, or reduce sample count to 10.
+Benchmarking hash/blake3/1073741824: Collecting 100 samples in estimated 32.045 s (100 iterations)
+Benchmarking hash/blake3/1073741824: Analyzing
+hash/blake3/1073741824  time:   [318.75 ms 318.81 ms 318.87 ms]
+                        thrpt:  [3.1361 GiB/s 3.1367 GiB/s 3.1373 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+Output of hashing algorithm (32 bytes): 0x9b9583757c983259ab874065a57f7486089b6b095878b1a8d41514ba61e94e
+Benchmarking hash/ghash_rust/1073741824
+Benchmarking hash/ghash_rust/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 50.6s, or reduce sample count to 10.
+Benchmarking hash/ghash_rust/1073741824: Collecting 100 samples in estimated 50.560 s (100 iterations)
+Benchmarking hash/ghash_rust/1073741824: Analyzing
+hash/ghash_rust/1073741824
+                        time:   [505.51 ms 505.64 ms 505.77 ms]
+                        thrpt:  [1.9772 GiB/s 1.9777 GiB/s 1.9782 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Output of hashing algorithm (16 bytes): 0xc217d02ced35d5dbb836cacd3a2f32dc
+Benchmarking hash/md5/1073741824
+Benchmarking hash/md5/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 165.4s, or reduce sample count to 10.
+Benchmarking hash/md5/1073741824: Collecting 100 samples in estimated 165.43 s (100 iterations)
+Benchmarking hash/md5/1073741824: Analyzing
+hash/md5/1073741824     time:   [1.6506 s 1.6508 s 1.6511 s]
+                        thrpt:  [620.21 MiB/s 620.29 MiB/s 620.38 MiB/s]
+Output of hashing algorithm (16 bytes): 0x4486b2335a9c9911813966ea9ac97f
+Benchmarking hash/xor256/1073741824
+Benchmarking hash/xor256/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 5.0s, or reduce sample count to 20.
+Benchmarking hash/xor256/1073741824: Collecting 100 samples in estimated 4.9580 s (100 iterations)
+Benchmarking hash/xor256/1073741824: Analyzing
+hash/xor256/1073741824  time:   [49.600 ms 49.609 ms 49.619 ms]
+                        thrpt:  [20.154 GiB/s 20.158 GiB/s 20.161 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low mild
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+Output of hashing algorithm (32 bytes): 0xa71c99ac7fd1db6276f647aed687a2b3831914c8d5704ed83f11d225ad1d323d
+Benchmarking hash/sha3_224/1073741824
+Benchmarking hash/sha3_224/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 267.1s, or reduce sample count to 10.
+Benchmarking hash/sha3_224/1073741824: Collecting 100 samples in estimated 267.06 s (100 iterations)
+Benchmarking hash/sha3_224/1073741824: Analyzing
+hash/sha3_224/1073741824
+                        time:   [2.5775 s 2.5790 s 2.5807 s]
+                        thrpt:  [396.79 MiB/s 397.05 MiB/s 397.29 MiB/s]
+Output of hashing algorithm (28 bytes): 0x48d3972618702164df32d9a16cd6d078a077726c6e8547eb3dc7bd4
+Benchmarking hash/sha3_256/1073741824
+Benchmarking hash/sha3_256/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 281.5s, or reduce sample count to 10.
+Benchmarking hash/sha3_256/1073741824: Collecting 100 samples in estimated 281.54 s (100 iterations)
+Benchmarking hash/sha3_256/1073741824: Analyzing
+hash/sha3_256/1073741824
+                        time:   [2.7239 s 2.7246 s 2.7254 s]
+                        thrpt:  [375.73 MiB/s 375.83 MiB/s 375.94 MiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+Output of hashing algorithm (32 bytes): 0x369322191f211a2bf61796d9abc613fb6d24f68df34fa5a7159557dfcd5efd
+Benchmarking hash/sha3_384/1073741824
+Benchmarking hash/sha3_384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 366.3s, or reduce sample count to 10.
+Benchmarking hash/sha3_384/1073741824: Collecting 100 samples in estimated 366.28 s (100 iterations)
+Benchmarking hash/sha3_384/1073741824: Analyzing
+hash/sha3_384/1073741824
+                        time:   [3.5450 s 3.5459 s 3.5468 s]
+                        thrpt:  [288.71 MiB/s 288.78 MiB/s 288.86 MiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Output of hashing algorithm (48 bytes): 0x2183f6040b4c8164caa3c5ec770ea1bb591b3e1be9bba68357549a2f9554f136ce1bc6819fe313b4a2ae37daa169a8
+Benchmarking hash/sha3_512/1073741824
+Benchmarking hash/sha3_512/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 524.5s, or reduce sample count to 10.
+Benchmarking hash/sha3_512/1073741824: Collecting 100 samples in estimated 524.50 s (100 iterations)
+Benchmarking hash/sha3_512/1073741824: Analyzing
+hash/sha3_512/1073741824
+                        time:   [5.0902 s 5.0918 s 5.0933 s]
+                        thrpt:  [201.05 MiB/s 201.11 MiB/s 201.17 MiB/s]
+Output of hashing algorithm (64 bytes): 0x326caede857a7888d72e195fb79d86a2244a3bddb96d343ea37fc0c2579b3eb0c01ccb8a1db9dade50224029b9773c80ece183b365ecee2063577d1fef1141f0
+Benchmarking hash/sha_224/1073741824
+Benchmarking hash/sha_224/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 66.3s, or reduce sample count to 10.
+Benchmarking hash/sha_224/1073741824: Collecting 100 samples in estimated 66.254 s (100 iterations)
+Benchmarking hash/sha_224/1073741824: Analyzing
+hash/sha_224/1073741824 time:   [662.28 ms 662.43 ms 662.58 ms]
+                        thrpt:  [1.5093 GiB/s 1.5096 GiB/s 1.5099 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+Output of hashing algorithm (28 bytes): 0xcffbcd29e178ad138387adc693ba242717597cfd3f818acd94ae996
+Benchmarking hash/sha_256/1073741824
+Benchmarking hash/sha_256/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 66.1s, or reduce sample count to 10.
+Benchmarking hash/sha_256/1073741824: Collecting 100 samples in estimated 66.067 s (100 iterations)
+Benchmarking hash/sha_256/1073741824: Analyzing
+hash/sha_256/1073741824 time:   [660.93 ms 661.10 ms 661.27 ms]
+                        thrpt:  [1.5122 GiB/s 1.5126 GiB/s 1.5130 GiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Output of hashing algorithm (32 bytes): 0xd2b382ad898564a8615a82d9fd82df2af33af4b94decc3bcb5d2ec6f182f8fff
+Benchmarking hash/sha_384/1073741824
+Benchmarking hash/sha_384/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 152.7s, or reduce sample count to 10.
+Benchmarking hash/sha_384/1073741824: Collecting 100 samples in estimated 152.69 s (100 iterations)
+Benchmarking hash/sha_384/1073741824: Analyzing
+hash/sha_384/1073741824 time:   [1.5236 s 1.5238 s 1.5240 s]
+                        thrpt:  [671.91 MiB/s 672.00 MiB/s 672.09 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Output of hashing algorithm (28 bytes): 0x82f5bdfc4439491911f98ada09ad59e3ae77f9e9d7b2bbc7ce78166
+Benchmarking hash/sha_512/1073741824
+Benchmarking hash/sha_512/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 152.5s, or reduce sample count to 10.
+Benchmarking hash/sha_512/1073741824: Collecting 100 samples in estimated 152.47 s (100 iterations)
+Benchmarking hash/sha_512/1073741824: Analyzing
+hash/sha_512/1073741824 time:   [1.5239 s 1.5241 s 1.5243 s]
+                        thrpt:  [671.79 MiB/s 671.88 MiB/s 671.96 MiB/s]
+Output of hashing algorithm (64 bytes): 0x84efdc14ebe2a19385fa7a8991a2d2f4505433df6638c93e79e9abcb37c7ae7beb5f3525037d8c3ff9b11c6dc6cbcfb847c5ef152b25552526d9a85f3dc
+Benchmarking hash/shake128/1073741824
+Benchmarking hash/shake128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 223.6s, or reduce sample count to 10.
+Benchmarking hash/shake128/1073741824: Collecting 100 samples in estimated 223.64 s (100 iterations)
+Benchmarking hash/shake128/1073741824: Analyzing
+hash/shake128/1073741824
+                        time:   [2.2333 s 2.2395 s 2.2461 s]
+                        thrpt:  [455.89 MiB/s 457.24 MiB/s 458.52 MiB/s]
+Output of hashing algorithm (32 bytes): 0x974d2f29dbb954a1ab556cd6667f492f4505433df6638c93e79e9abcb37c7a
+Benchmarking hash/shake256/1073741824
+Benchmarking hash/shake256/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 272.0s, or reduce sample count to 10.
+Benchmarking hash/shake256/1073741824: Collecting 100 samples in estimated 272.00 s (100 iterations)
+Benchmarking hash/shake256/1073741824: Analyzing
+hash/shake256/1073741824
+                        time:   [2.7365 s 2.7402 s 2.7440 s]
+                        thrpt:  [373.18 MiB/s 373.69 MiB/s 374.20 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Output of hashing algorithm (64 bytes): 0x743cd532fa5f5cc828fe6c7eb5f5f2265c4b8a172da424ad794ba82e2216e7beb5f3525037d8c3ff9b11c6dc6cbcfb847c5ef152b25552526d9a85f3dc
+
+Hashing benchmark took 3143.131 seconds
+Benchmarking encryption/encrypt/aes_128_cfb/1073741824
+Benchmarking encryption/encrypt/aes_128_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 151.1s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_128_cfb/1073741824: Collecting 100 samples in estimated 151.08 s (100 iterations)
+Benchmarking encryption/encrypt/aes_128_cfb/1073741824: Analyzing
+encryption/encrypt/aes_128_cfb/1073741824
+                        time:   [1.4995 s 1.4998 s 1.5000 s]
+                        thrpt:  [682.66 MiB/s 682.77 MiB/s 682.88 MiB/s]
+Benchmarking encryption/encrypt/aes_128_cfb128/1073741824
+Benchmarking encryption/encrypt/aes_128_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 150.4s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_128_cfb128/1073741824: Collecting 100 samples in estimated 150.40 s (100 iterations)
+Benchmarking encryption/encrypt/aes_128_cfb128/1073741824: Analyzing
+encryption/encrypt/aes_128_cfb128/1073741824
+                        time:   [1.5039 s 1.5042 s 1.5046 s]
+                        thrpt:  [680.57 MiB/s 680.74 MiB/s 680.91 MiB/s]
+Benchmarking encryption/encrypt/aes_128_ctr/1073741824
+Benchmarking encryption/encrypt/aes_128_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 12.8s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_128_ctr/1073741824: Collecting 100 samples in estimated 12.830 s (100 iterations)
+Benchmarking encryption/encrypt/aes_128_ctr/1073741824: Analyzing
+encryption/encrypt/aes_128_ctr/1073741824
+                        time:   [128.22 ms 128.37 ms 128.54 ms]
+                        thrpt:  [7.7800 GiB/s 7.7900 GiB/s 7.7991 GiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+Benchmarking encryption/encrypt/aes_128_ofb/1073741824
+Benchmarking encryption/encrypt/aes_128_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 104.2s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_128_ofb/1073741824: Collecting 100 samples in estimated 104.16 s (100 iterations)
+Benchmarking encryption/encrypt/aes_128_ofb/1073741824: Analyzing
+encryption/encrypt/aes_128_ofb/1073741824
+                        time:   [1.0365 s 1.0367 s 1.0369 s]
+                        thrpt:  [987.53 MiB/s 987.75 MiB/s 987.98 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking encryption/encrypt/aes_192_cfb/1073741824
+Benchmarking encryption/encrypt/aes_192_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 166.6s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_192_cfb/1073741824: Collecting 100 samples in estimated 166.55 s (100 iterations)
+Benchmarking encryption/encrypt/aes_192_cfb/1073741824: Analyzing
+encryption/encrypt/aes_192_cfb/1073741824
+                        time:   [1.6654 s 1.6656 s 1.6658 s]
+                        thrpt:  [614.71 MiB/s 614.80 MiB/s 614.88 MiB/s]
+Benchmarking encryption/encrypt/aes_192_cfb128/1073741824
+Benchmarking encryption/encrypt/aes_192_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 166.4s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_192_cfb128/1073741824: Collecting 100 samples in estimated 166.35 s (100 iterations)
+Benchmarking encryption/encrypt/aes_192_cfb128/1073741824: Analyzing
+encryption/encrypt/aes_192_cfb128/1073741824
+                        time:   [1.6635 s 1.6641 s 1.6654 s]
+                        thrpt:  [614.88 MiB/s 615.35 MiB/s 615.58 MiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high severe
+Benchmarking encryption/encrypt/aes_192_ctr/1073741824
+Benchmarking encryption/encrypt/aes_192_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 14.6s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_192_ctr/1073741824: Collecting 100 samples in estimated 14.567 s (100 iterations)
+Benchmarking encryption/encrypt/aes_192_ctr/1073741824: Analyzing
+encryption/encrypt/aes_192_ctr/1073741824
+                        time:   [144.99 ms 145.07 ms 145.16 ms]
+                        thrpt:  [6.8891 GiB/s 6.8931 GiB/s 6.8970 GiB/s]
+Benchmarking encryption/encrypt/aes_192_ofb/1073741824
+Benchmarking encryption/encrypt/aes_192_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 121.9s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_192_ofb/1073741824: Collecting 100 samples in estimated 121.93 s (100 iterations)
+Benchmarking encryption/encrypt/aes_192_ofb/1073741824: Analyzing
+encryption/encrypt/aes_192_ofb/1073741824
+                        time:   [1.2195 s 1.2199 s 1.2202 s]
+                        thrpt:  [839.22 MiB/s 839.44 MiB/s 839.67 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking encryption/encrypt/aes_256_cfb/1073741824
+Benchmarking encryption/encrypt/aes_256_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 184.5s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_256_cfb/1073741824: Collecting 100 samples in estimated 184.54 s (100 iterations)
+Benchmarking encryption/encrypt/aes_256_cfb/1073741824: Analyzing
+encryption/encrypt/aes_256_cfb/1073741824
+                        time:   [1.8408 s 1.8412 s 1.8416 s]
+                        thrpt:  [556.04 MiB/s 556.17 MiB/s 556.29 MiB/s]
+Found 8 outliers among 100 measurements (8.00%)
+  4 (4.00%) low mild
+  4 (4.00%) high mild
+Benchmarking encryption/encrypt/aes_256_cfb128/1073741824
+Benchmarking encryption/encrypt/aes_256_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 184.1s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_256_cfb128/1073741824: Collecting 100 samples in estimated 184.12 s (100 iterations)
+Benchmarking encryption/encrypt/aes_256_cfb128/1073741824: Analyzing
+encryption/encrypt/aes_256_cfb128/1073741824
+                        time:   [1.8399 s 1.8403 s 1.8407 s]
+                        thrpt:  [556.32 MiB/s 556.43 MiB/s 556.54 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking encryption/encrypt/aes_256_ctr/1073741824
+Benchmarking encryption/encrypt/aes_256_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 16.9s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_256_ctr/1073741824: Collecting 100 samples in estimated 16.949 s (100 iterations)
+Benchmarking encryption/encrypt/aes_256_ctr/1073741824: Analyzing
+encryption/encrypt/aes_256_ctr/1073741824
+                        time:   [169.47 ms 169.65 ms 169.81 ms]
+                        thrpt:  [5.8889 GiB/s 5.8945 GiB/s 5.9006 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low severe
+Benchmarking encryption/encrypt/aes_256_ofb/1073741824
+Benchmarking encryption/encrypt/aes_256_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 136.3s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/aes_256_ofb/1073741824: Collecting 100 samples in estimated 136.32 s (100 iterations)
+Benchmarking encryption/encrypt/aes_256_ofb/1073741824: Analyzing
+encryption/encrypt/aes_256_ofb/1073741824
+                        time:   [1.3623 s 1.3626 s 1.3628 s]
+                        thrpt:  [751.41 MiB/s 751.53 MiB/s 751.65 MiB/s]
+Benchmarking encryption/encrypt/chacha20/1073741824
+Benchmarking encryption/encrypt/chacha20/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 255.4s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/chacha20/1073741824: Collecting 100 samples in estimated 255.37 s (100 iterations)
+Benchmarking encryption/encrypt/chacha20/1073741824: Analyzing
+encryption/encrypt/chacha20/1073741824
+                        time:   [2.5682 s 2.5685 s 2.5688 s]
+                        thrpt:  [398.64 MiB/s 398.68 MiB/s 398.73 MiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+Benchmarking encryption/encrypt/chacha20_simd/1073741824
+Benchmarking encryption/encrypt/chacha20_simd/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 61.7s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/chacha20_simd/1073741824: Collecting 100 samples in estimated 61.659 s (100 iterations)
+Benchmarking encryption/encrypt/chacha20_simd/1073741824: Analyzing
+encryption/encrypt/chacha20_simd/1073741824
+                        time:   [615.52 ms 615.79 ms 616.06 ms]
+                        thrpt:  [1.6232 GiB/s 1.6239 GiB/s 1.6247 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+Benchmarking encryption/encrypt/xor_deadbeef/1073741824
+Benchmarking encryption/encrypt/xor_deadbeef/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 9.2s, or reduce sample count to 10.
+Benchmarking encryption/encrypt/xor_deadbeef/1073741824: Collecting 100 samples in estimated 9.2435 s (100 iterations)
+Benchmarking encryption/encrypt/xor_deadbeef/1073741824: Analyzing
+encryption/encrypt/xor_deadbeef/1073741824
+                        time:   [92.506 ms 92.520 ms 92.534 ms]
+                        thrpt:  [10.807 GiB/s 10.808 GiB/s 10.810 GiB/s]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low mild
+  5 (5.00%) high mild
+
+Benchmarking encryption/decrypt/aes_128_cfb/1073741824
+Benchmarking encryption/decrypt/aes_128_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 150.8s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_128_cfb/1073741824: Collecting 100 samples in estimated 150.82 s (100 iterations)
+Benchmarking encryption/decrypt/aes_128_cfb/1073741824: Analyzing
+encryption/decrypt/aes_128_cfb/1073741824
+                        time:   [1.5065 s 1.5067 s 1.5070 s]
+                        thrpt:  [679.51 MiB/s 679.62 MiB/s 679.73 MiB/s]
+Benchmarking encryption/decrypt/aes_128_cfb128/1073741824
+Benchmarking encryption/decrypt/aes_128_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 150.6s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_128_cfb128/1073741824: Collecting 100 samples in estimated 150.56 s (100 iterations)
+Benchmarking encryption/decrypt/aes_128_cfb128/1073741824: Analyzing
+encryption/decrypt/aes_128_cfb128/1073741824
+                        time:   [1.5055 s 1.5058 s 1.5060 s]
+                        thrpt:  [679.95 MiB/s 680.05 MiB/s 680.16 MiB/s]
+Benchmarking encryption/decrypt/aes_128_ctr/1073741824
+Benchmarking encryption/decrypt/aes_128_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 13.3s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_128_ctr/1073741824: Collecting 100 samples in estimated 13.257 s (100 iterations)
+Benchmarking encryption/decrypt/aes_128_ctr/1073741824: Analyzing
+encryption/decrypt/aes_128_ctr/1073741824
+                        time:   [132.18 ms 132.26 ms 132.36 ms]
+                        thrpt:  [7.5553 GiB/s 7.5606 GiB/s 7.5657 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+Benchmarking encryption/decrypt/aes_128_ofb/1073741824
+Benchmarking encryption/decrypt/aes_128_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 103.3s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_128_ofb/1073741824: Collecting 100 samples in estimated 103.32 s (100 iterations)
+Benchmarking encryption/decrypt/aes_128_ofb/1073741824: Analyzing
+encryption/decrypt/aes_128_ofb/1073741824
+                        time:   [1.0323 s 1.0325 s 1.0327 s]
+                        thrpt:  [991.58 MiB/s 991.77 MiB/s 991.96 MiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+Benchmarking encryption/decrypt/aes_192_cfb/1073741824
+Benchmarking encryption/decrypt/aes_192_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 166.8s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_192_cfb/1073741824: Collecting 100 samples in estimated 166.78 s (100 iterations)
+Benchmarking encryption/decrypt/aes_192_cfb/1073741824: Analyzing
+encryption/decrypt/aes_192_cfb/1073741824
+                        time:   [1.6686 s 1.6688 s 1.6691 s]
+                        thrpt:  [613.50 MiB/s 613.60 MiB/s 613.69 MiB/s]
+Benchmarking encryption/decrypt/aes_192_cfb128/1073741824
+Benchmarking encryption/decrypt/aes_192_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 166.7s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_192_cfb128/1073741824: Collecting 100 samples in estimated 166.73 s (100 iterations)
+Benchmarking encryption/decrypt/aes_192_cfb128/1073741824: Analyzing
+encryption/decrypt/aes_192_cfb128/1073741824
+                        time:   [1.6675 s 1.6677 s 1.6679 s]
+                        thrpt:  [613.94 MiB/s 614.02 MiB/s 614.10 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking encryption/decrypt/aes_192_ctr/1073741824
+Benchmarking encryption/decrypt/aes_192_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 15.3s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_192_ctr/1073741824: Collecting 100 samples in estimated 15.343 s (100 iterations)
+Benchmarking encryption/decrypt/aes_192_ctr/1073741824: Analyzing
+encryption/decrypt/aes_192_ctr/1073741824
+                        time:   [153.37 ms 153.96 ms 154.56 ms]
+                        thrpt:  [6.4699 GiB/s 6.4953 GiB/s 6.5203 GiB/s]
+Benchmarking encryption/decrypt/aes_192_ofb/1073741824
+Benchmarking encryption/decrypt/aes_192_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 121.5s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_192_ofb/1073741824: Collecting 100 samples in estimated 121.51 s (100 iterations)
+Benchmarking encryption/decrypt/aes_192_ofb/1073741824: Analyzing
+encryption/decrypt/aes_192_ofb/1073741824
+                        time:   [1.2146 s 1.2148 s 1.2150 s]
+                        thrpt:  [842.79 MiB/s 842.95 MiB/s 843.10 MiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Benchmarking encryption/decrypt/aes_256_cfb/1073741824
+Benchmarking encryption/decrypt/aes_256_cfb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 183.5s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_256_cfb/1073741824: Collecting 100 samples in estimated 183.50 s (100 iterations)
+Benchmarking encryption/decrypt/aes_256_cfb/1073741824: Analyzing
+encryption/decrypt/aes_256_cfb/1073741824
+                        time:   [1.8347 s 1.8350 s 1.8352 s]
+                        thrpt:  [557.97 MiB/s 558.05 MiB/s 558.13 MiB/s]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+Benchmarking encryption/decrypt/aes_256_cfb128/1073741824
+Benchmarking encryption/decrypt/aes_256_cfb128/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 183.4s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_256_cfb128/1073741824: Collecting 100 samples in estimated 183.40 s (100 iterations)
+Benchmarking encryption/decrypt/aes_256_cfb128/1073741824: Analyzing
+encryption/decrypt/aes_256_cfb128/1073741824
+                        time:   [1.8331 s 1.8333 s 1.8336 s]
+                        thrpt:  [558.48 MiB/s 558.55 MiB/s 558.62 MiB/s]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+Benchmarking encryption/decrypt/aes_256_ctr/1073741824
+Benchmarking encryption/decrypt/aes_256_ctr/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 17.0s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_256_ctr/1073741824: Collecting 100 samples in estimated 17.043 s (100 iterations)
+Benchmarking encryption/decrypt/aes_256_ctr/1073741824: Analyzing
+encryption/decrypt/aes_256_ctr/1073741824
+                        time:   [169.97 ms 170.22 ms 170.46 ms]
+                        thrpt:  [5.8665 GiB/s 5.8746 GiB/s 5.8833 GiB/s]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+Benchmarking encryption/decrypt/aes_256_ofb/1073741824
+Benchmarking encryption/decrypt/aes_256_ofb/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 135.9s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/aes_256_ofb/1073741824: Collecting 100 samples in estimated 135.88 s (100 iterations)
+Benchmarking encryption/decrypt/aes_256_ofb/1073741824: Analyzing
+encryption/decrypt/aes_256_ofb/1073741824
+                        time:   [1.3586 s 1.3589 s 1.3591 s]
+                        thrpt:  [753.44 MiB/s 753.57 MiB/s 753.70 MiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking encryption/decrypt/chacha20/1073741824
+Benchmarking encryption/decrypt/chacha20/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 257.3s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/chacha20/1073741824: Collecting 100 samples in estimated 257.28 s (100 iterations)
+Benchmarking encryption/decrypt/chacha20/1073741824: Analyzing
+encryption/decrypt/chacha20/1073741824
+                        time:   [2.5564 s 2.5569 s 2.5575 s]
+                        thrpt:  [400.40 MiB/s 400.48 MiB/s 400.56 MiB/s]
+Benchmarking encryption/decrypt/chacha20_simd/1073741824
+Benchmarking encryption/decrypt/chacha20_simd/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 60.6s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/chacha20_simd/1073741824: Collecting 100 samples in estimated 60.552 s (100 iterations)
+Benchmarking encryption/decrypt/chacha20_simd/1073741824: Analyzing
+encryption/decrypt/chacha20_simd/1073741824
+                        time:   [610.29 ms 610.73 ms 611.20 ms]
+                        thrpt:  [1.6361 GiB/s 1.6374 GiB/s 1.6386 GiB/s]
+Found 10 outliers among 100 measurements (10.00%)
+  2 (2.00%) low mild
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+Benchmarking encryption/decrypt/xor_deadbeef/1073741824
+Benchmarking encryption/decrypt/xor_deadbeef/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 9.2s, or reduce sample count to 10.
+Benchmarking encryption/decrypt/xor_deadbeef/1073741824: Collecting 100 samples in estimated 9.2296 s (100 iterations)
+Benchmarking encryption/decrypt/xor_deadbeef/1073741824: Analyzing
+encryption/decrypt/xor_deadbeef/1073741824
+                        time:   [92.395 ms 92.408 ms 92.420 ms]
+                        thrpt:  [10.820 GiB/s 10.822 GiB/s 10.823 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+
+Encryption benchmark took 3733.397 seconds
+AEAD benchmark took 0 seconds
+Benchmark complete in 6877.277 seconds ~= 1.910 hours
+	Hash:       3143.131 seconds ~= 0.873 hours. ~= 165.428 sec/test, 19 tests in total
+	Encryption:       3733.397 seconds ~= 1.037 hours. ~= 124.447 sec/test, 30 tests in total

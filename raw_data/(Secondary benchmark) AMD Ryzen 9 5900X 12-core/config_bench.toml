@@ -1,0 +1,36 @@
+SAMPLE_SIZE = 100
+MEASUREMENT_TIME_SEC = 1
+WARMUP_TIME_SEC = 5
+
+ALIGNMENT = 64
+
+# INPUT_SIZE = 4096
+# INPUT_SIZE = 1048576
+# INPUT_SIZE = 16777216
+INPUT_SIZE = 1073741824
+
+# BENCH_HASH = false
+# BENCH_ENCRYPTION = false
+# BENCH_AEAD = false
+
+BENCH_HASH = true
+BENCH_ENCRYPTION = true
+BENCH_AEAD = true
+
+DO_THREAD_COUNT_BENCH = true
+DO_BLOCK_SIZE_BENCH = true
+DO_ONLY_BLOCKSIZE_BENCH = false
+
+# Choose what should be included (empty array == all)
+NAME_PATTERNS = []
+# NAME_PATTERNS = ["par_split_xor"]
+# NAME_PATTERNS = ["par_split_aes_256_gcm.so"]
+# NAME_PATTERNS = ["rustcrypto_aes_256_gcm"]
+# NAME_PATTERNS = ["rust"]
+# NAME_PATTERNS = ["ghash"]
+# NAME_PATTERNS = ["par_split"]
+
+
+
+# Confidence level used in criterion report only
+CONFIDENCE_LEVEL = 0.99

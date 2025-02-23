@@ -1,0 +1,1 @@
+{"group_id":"aead/encrypt","function_id":"aes-256-ctr_sha-256","value_str":"1073741824","throughput":{"Bytes":1073741824},"full_id":"aead/encrypt/aes-256-ctr_sha-256/1073741824","directory_name":"aead_encrypt/aes-256-ctr_sha-256/1073741824","title":"aead/encrypt/aes-256-ctr_sha-256/1073741824"}

@@ -1,0 +1,1 @@
+{"group_id":"encryption/encrypt","function_id":"chacha20_simd","value_str":"1073741824","throughput":{"Bytes":1073741824},"full_id":"encryption/encrypt/chacha20_simd/1073741824","directory_name":"encryption_encrypt/chacha20_simd/1073741824","title":"encryption/encrypt/chacha20_simd/1073741824"}

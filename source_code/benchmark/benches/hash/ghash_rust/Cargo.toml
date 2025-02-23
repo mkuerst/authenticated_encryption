@@ -1,0 +1,25 @@
+[package]
+name = "ghash_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name         = "ghash_rust"
+crate-type   = ["cdylib"] # ["rlib", "cdylib"]
+
+[dependencies]
+ghash = "0.5.0"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+# rustflags = ["-C", "target-cpu=native"] # TODO
+codegen-units = 1
+# opt-level = 0 # TODO: Got a "Bus error" from this option somehow?
+# opt-level = 1
+opt-level = 3
+lto="fat"
+strip = "debuginfo"

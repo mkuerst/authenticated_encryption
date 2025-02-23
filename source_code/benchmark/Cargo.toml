@@ -1,0 +1,46 @@
+# cargo-features = ["profile-rustflags"]
+
+[package]
+name = "benchmark-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+bench = false
+
+[[bench]]
+name = "my_benchmark"
+harness = false
+
+[dev-dependencies]
+criterion = { version = "0.5.1", features = [
+    "html_reports",
+    "csv",
+    "csv_output",
+] }
+# criterion-cycles-per-byte = "0.6.0"
+
+[dependencies]
+libc = "0.2.150"
+libloading = "0.8.1"
+toml = "0.8.8"
+num_cpus = "1.16.0"
+lazy_static = "1.4.0"
+
+[build-dependencies]
+# cc = "1.0"
+rayon = "1.8.0"
+
+[profile.release]
+# rustflags = ["-C", "target-cpu=native"]
+# rustflags = ["-Zsanitizer=address"]
+# rustflags = ["-Zsanitizer=thread"]
+opt-level = 3
+
+[profile.dev]
+# rustflags = ["-C", "target-cpu=native"]
+# rustflags = ["-Zsanitizer=address"]
+# rustflags = ["-Zsanitizer=thread"]
+opt-level = 3

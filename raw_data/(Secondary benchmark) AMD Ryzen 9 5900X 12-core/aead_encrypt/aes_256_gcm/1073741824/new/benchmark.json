@@ -1,0 +1,1 @@
+{"group_id":"aead/encrypt","function_id":"aes_256_gcm","value_str":"1073741824","throughput":{"Bytes":1073741824},"full_id":"aead/encrypt/aes_256_gcm/1073741824","directory_name":"aead_encrypt/aes_256_gcm/1073741824","title":"aead/encrypt/aes_256_gcm/1073741824"}

@@ -1,0 +1,8 @@
+[build]
+# rustflags = ["-Cprefer-dynamic"]
+# rustflags = ["-Cprefer-dynamic", "-Ctarget-cpu=target"]
+# rustflags = [
+#     "-C",
+#     "link-args=-Wl,-z,undefs"
+# ]
+target-dir = "../../../target/build/hash/ghash_rust/"

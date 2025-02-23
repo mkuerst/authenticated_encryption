@@ -1,0 +1,42 @@
+Gnuplot not found, using plotters backend
+Generating data...
+Data generated in 617.334 ms
+DATA SIZE: 1073741824 bytes (1024.000 MiB, 1.000 GiB)
+Physical cores: 128
+Logical cores:  64
+Benchmark: Config {
+    input_size: 1073741824,
+    max_threads: 64,
+    sample_size: 100,
+    measurement_time: 1s,
+    warmup_time: 5s,
+    confidence_level: 0.99,
+    alignment: 64,
+    do_hashes: true,
+    do_encryption: false,
+    do_aead: false,
+    do_thread_count_bench: false,
+    do_blocksize_bench: false,
+    do_only_blocksize_bench: false,
+    name_patterns: [
+        "cryptopp",
+    ],
+}
+Benchmarking hash/cryptopp_ghash/1073741824
+Benchmarking hash/cryptopp_ghash/1073741824: Warming up for 5.0000 s
+
+Warning: Unable to complete 100 samples in 1.0s. You may wish to increase target time to 29.9s, or reduce sample count to 10.
+Benchmarking hash/cryptopp_ghash/1073741824: Collecting 100 samples in estimated 29.935 s (100 iterations)
+Benchmarking hash/cryptopp_ghash/1073741824: Analyzing
+hash/cryptopp_ghash/1073741824
+                        time:   [288.96 ms 292.17 ms 295.50 ms]
+                        thrpt:  [3.3841 GiB/s 3.4227 GiB/s 3.4607 GiB/s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Output of hashing algorithm (16 bytes): 0x36ba7c4bd4876e7f224209759e24abc
+
+Hashing benchmark took 38.815 seconds
+Encryption benchmark took 0 seconds
+AEAD benchmark took 0 seconds
+Benchmark complete in 39.565 seconds ~= 0.011 hours
+	Hash:       38.815 seconds ~= 0.011 hours. ~= 38.815 sec/test, 1 tests in total
